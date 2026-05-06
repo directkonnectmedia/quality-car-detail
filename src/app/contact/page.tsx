@@ -87,7 +87,7 @@ export default function ContactPage() {
                     </label>
                     <input
                       type="tel"
-                      placeholder="(480) 555-0000"
+                      placeholder="602-909-0654"
                       value={form.phone}
                       onChange={(e) => updateField("phone", e.target.value)}
                       className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder:text-white/30 focus:border-[var(--color-red)]/50 focus:outline-none transition-colors"
@@ -150,7 +150,7 @@ export default function ContactPage() {
                   <Phone className="w-5 h-5 text-[var(--color-red)] mt-0.5 flex-shrink-0" />
                   <div>
                     <p className="text-white text-sm font-medium">Phone</p>
-                    <p className="text-white/50 text-sm">(480) 555-0125</p>
+                    <p className="text-white/50 text-sm">602-909-0654</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">

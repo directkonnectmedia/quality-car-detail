@@ -13,7 +13,7 @@ const reviews = [
   {
     name: "Sarah K.",
     vehicle: "2023 Tesla Model Y",
-    text: "I've tried several detailers in Arizona and A.M. Detailing is by far the best. The interior was spotless and the paint correction was flawless.",
+    text: "I've tried several detailers in Arizona and Quality Details is by far the best. The interior was spotless and the paint correction was flawless.",
     rating: 5,
   },
   {
@@ -52,8 +52,8 @@ export default function Reviews() {
             What Our Clients Say
           </h2>
           <p className="text-white/40 font-light max-w-md mx-auto">
-            Real results. Real satisfaction. See why Arizona trusts A.M.
-            Detailing.
+            Real results. Real satisfaction. See why Arizona trusts Quality
+            Details.
           </p>
         </motion.div>
 

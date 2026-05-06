@@ -20,7 +20,7 @@ export default function CTASection() {
             Your Vehicle Deserves the Best
           </h2>
           <p className="text-white/40 font-light max-w-lg mx-auto mb-10">
-            Book your appointment today and experience the A.M. Detailing
+            Book your appointment today and experience the Quality Details
             difference. Premium results, every time.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

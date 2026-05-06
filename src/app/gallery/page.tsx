@@ -97,7 +97,7 @@ export default function GalleryPage() {
             Gallery
           </h1>
           <p className="text-white/40 font-light max-w-md mx-auto">
-            Browse our recent projects and see the A.M. Detailing difference.
+            Browse our recent projects and see the Quality Details difference.
           </p>
         </motion.div>
 

@@ -12,7 +12,7 @@ export default function Footer() {
             <Link href="/" className="inline-block mb-4">
               <Image
                 src="/logo.png"
-                alt="A.M. Detailing"
+                alt="Quality Details"
                 width={60}
                 height={60}
                 className="w-15 h-15"
@@ -55,7 +55,7 @@ export default function Footer() {
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-[var(--color-red)]" />
-                <span className="text-sm text-white/60">(480) 555-0125</span>
+                <span className="text-sm text-white/60">602-909-0654</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-[var(--color-red)]" />
@@ -74,7 +74,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-white/30">
-            &copy; {new Date().getFullYear()} A.M. Detailing. All rights
+            &copy; {new Date().getFullYear()} Quality Details. All rights
             reserved.
           </p>
           <p className="text-xs text-white/20">

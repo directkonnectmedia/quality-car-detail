@@ -4,7 +4,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "A.M. Detailing | Premium Auto Detailing in Arizona",
+  title: "Quality Details | Premium Auto Detailing in Arizona",
   description:
     "Professional auto detailing services in Arizona. Interior, exterior, paint correction, ceramic coating, and more. Since 2025.",
   keywords: [

@@ -40,7 +40,7 @@ export default function Hero() {
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.5 }}
           className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold tracking-[0.1em] uppercase text-white mb-6"
         >
-          A.M. Detailing
+          Quality Details
         </motion.h1>
 
         <motion.p

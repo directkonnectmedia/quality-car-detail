@@ -126,7 +126,7 @@ export default function Navigation() {
           <Link href="/">
             <Image
               src="/logo.png"
-              alt="A.M. Detailing"
+              alt="Quality Details"
               width={50}
               height={50}
               className="w-10 h-10 sm:w-12 sm:h-12"
@@ -192,7 +192,7 @@ export default function Navigation() {
                 <Link href="/" onClick={() => setIsOpen(false)}>
                   <Image
                     src="/logo.png"
-                    alt="A.M. Detailing"
+                    alt="Quality Details"
                     width={44}
                     height={44}
                     className="w-11 h-11"
