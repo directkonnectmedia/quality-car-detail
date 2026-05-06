@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone, ChevronRight } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
 
 const serviceCategories = [
   {
@@ -123,15 +122,11 @@ export default function Navigation() {
       >
         <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
           {/* Logo — left */}
-          <Link href="/">
-            <Image
-              src="/logo.png"
-              alt="Quality Details"
-              width={50}
-              height={50}
-              className="w-10 h-10 sm:w-12 sm:h-12"
-              priority
-            />
+          <Link
+            href="/"
+            className="text-base sm:text-lg font-semibold tracking-[0.12em] uppercase text-white hover:text-white/90 transition-colors duration-300"
+          >
+            Quality Details
           </Link>
 
           {/* Menu Button — centered, bigger, prominent */}
@@ -189,14 +184,12 @@ export default function Navigation() {
             >
               {/* Panel Header */}
               <div className="flex items-center justify-between px-8 py-6 border-b border-white/10">
-                <Link href="/" onClick={() => setIsOpen(false)}>
-                  <Image
-                    src="/logo.png"
-                    alt="Quality Details"
-                    width={44}
-                    height={44}
-                    className="w-11 h-11"
-                  />
+                <Link
+                  href="/"
+                  onClick={() => setIsOpen(false)}
+                  className="text-sm font-semibold tracking-[0.12em] uppercase text-white hover:text-white/90 transition-colors duration-300"
+                >
+                  Quality Details
                 </Link>
                 <button
                   onClick={() => setIsOpen(false)}
